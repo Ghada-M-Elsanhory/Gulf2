@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .varela-regular {
+    font-family: "Varela", sans-serif;
+  }
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/backgroundHome.png") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+  
+  .logo img {
+    width: 185px;
+    margin-left: 15%;
+  }
+  
+   header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.5);
+    z-index: 1;
+    opacity: 1;
+    pointer-events: none;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+  }
+  
+  .menu-toggle {
+    font-family: varela;
+    font-size: 22px;
+    line-height: 41px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5%;
+  }
+  
+  #nav-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: transform 1s ease;
+    z-index: 3;
+  }
+  
+  #nav-menu.active {
+    transform: translateY(0);
+  }
+  
+  #nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #nav-menu ul li {
+    margin: 10px 0;
+  }
+  
+  #nav-menu ul li a {
+    color: #fff;
+    font-family: serif;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .intro {
+    position: relative;
+    z-index: 2;
+    transition: opacity 0.6s ease, visibility 0.6s ease, display 0.6s ease;
+  }
+  
+  #nav-menu.active ~ .intro {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+  
+  .intro h1 {
+    font-weight: 600;
+    font-size: 79px;
+    line-height: 110.6px;
+    color: #fff;
+  }
+  
+  .intro .buttons {
+    margin-top: 20px;
+  }
+  
+  .intro .look {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #977739;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .look {
+    position: relative;
+    top: -30px;
+    left: 80%;
+  }
+  
+  .arrow {
+    font-size: 20px;
+  }
+  /* end home */
+  
