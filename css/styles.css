@@ -317,3 +317,52 @@
     color: #020101;
    }
   /* end about */
+  
+/* start projects */
+.projects {
+    width: 60%;
+    margin: auto;
+    text-align: center; 
+    z-index: 2;
+    position: relative;
+  }
+  
+  .project-image {
+    display: flex;
+  }
+  .project-image .project-item {
+    width: 50%;
+    background-color: #977839;
+  }
+  .project-item {
+    margin-left: 10px;
+    margin-right: 10px; 
+  }
+  
+  .project-image img {
+    width: 100%;
+  }
+  
+  .project-text h2 {
+    text-align: center;
+    font-family: "Varela", sans-serif;
+    font-weight: 900;
+    color: white;
+    size: 70px;
+    line-height: 70px;
+  }
+  .project-video {
+    display: flex;
+  }
+  .project-video .video-item {
+    width: 50%;
+  }
+  .video-item {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .project-video video {
+    width: 100%;
+  }
+  /* end projects */
