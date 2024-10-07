@@ -153,3 +153,167 @@
   }
   /* end home */
   
+/* start about */
+.about-header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/about/pexels-anjreyes-465118.jpg") no-repeat center
+      center/cover;
+    display: flex;
+    padding: 0 20px;
+  }
+  .about-header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 101px;
+    line-height: 131.3px;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 50px;
+  }
+  
+  .info-section {
+    background: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .info-section .container {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .section-title {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 104px;
+    padding-top: 50px;
+    position: relative;
+    display: inline-block;
+    color: #8b6e33;
+  }
+  
+  .section-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: black;
+    margin: 15px auto;
+  }
+  
+  .section-text {
+    width: 1000px;
+    margin: auto;
+    font-size: 26px;
+    font-weight: 400;
+    color: black;
+    line-height: 39px;
+    padding: 20px 0;
+  }
+  /* interactive */
+  .interactive-section{
+    background-color: #F8F7F3;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .card {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin: 0 15px;
+    transition: background 0.3s, color 0.3s;
+  }
+  #card1{
+    background-color: #8b6e33;
+    color: #fff;
+  }
+  #card2{
+    background-color: black;
+    color: #fff;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .article-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    position: relative;
+    z-index: 2;
+  }
+  #article2 {
+    display: none;
+  }
+  .article-container p{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  /* counter */
+  .counter-section {
+  
+    padding: 90px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #977839;
+    text-align: center;
+  }
+  .counter-item {
+    flex: 1;
+  }
+  .counter {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    position: relative;
+  }
+  .counter::after {
+    content: "+";
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    right: 80px;
+  }
+  .counter-item p {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+   }
+   /* row */
+   .go-to-project{
+   background-color: #F8F7F3;
+   }
+   .go-to-project h2{
+   font-size: 80px;
+   padding-bottom: 90px;
+   line-height: 104px;
+   font-weight: 400;
+   }
+    .go-to-project .container{
+    width: 80;
+    margin: auto;
+    text-align: center;
+   }
+   .go-to-project a{
+    text-decoration: none;
+    color: #020101;
+   }
+  /* end about */
