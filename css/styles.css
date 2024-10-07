@@ -92,7 +92,7 @@
   }
   
   #nav-menu ul li {
-    margin: 10px 0;
+    margin: 20px 0;
   }
   
   #nav-menu ul li a {
@@ -131,15 +131,21 @@
   }
   
   .intro .look {
-    padding: 15px 30px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #977739;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    width: 270px;
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #F9DF8C, #977739);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+
   }
   .look {
     position: relative;
